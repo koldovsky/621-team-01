@@ -44,3 +44,21 @@ h1 {
   text-align: center;
 }
 
+.top-categories, a {
+  color: var(--title-color);
+}
+
+.add-button {
+  color: var(--buy-color);
+}
+
+.top-goods img {
+  width: 270px;
+  height: 270px;
+}
+
+.top-good-name {
+  color: var(--title-color);
+}
+
+
