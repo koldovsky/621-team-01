@@ -7,10 +7,28 @@
   --title-font-family: 'Baloo 2', cursive;
   --original-font-family: 'PT Sans', sans-serif;
 }
-
-.banner {
-    color: var(--title-color); 
-   font-family: var(--title-font-family); 
+body{
+  font-family: var(--original-font-family);
+  color: var(--original-text-color); 
+}
+h1,h2,h3,h4 {
+  font-family: var(--title-font-family); 
+  color: var(--title-color);
+}
+h1 {
+  font-size: 82px;
+}
+.contacts {
+  color: var(--button-color);
+  font-weight:bold;
+  background-color: rgb(242, 232, 228);
+  flex-direction: column;
+}
+.best-food {
+  background-image: url(img/best-food.png)
+}
+.discount {
+  background-image: url(img/discount.png)
 }
 .trending-products {
   color: var(--title-color);
