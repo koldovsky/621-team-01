@@ -61,19 +61,6 @@ h1 {
 .top-good-name {
   color: var(--title-color);
 }
-<<<<<<< HEAD
-div.slide-kitten {
-  font-family: var(--original-font-family);
-  font-size: 17px;
-  font-weight: 100;
-  text-decoration-line: none;
-}
-.small-bone {
-  display: block;
-  margin: auto;
-}
-=======
-
 .footer-nav {
   background-color: rgb(250, 244, 242);
 }
@@ -86,4 +73,3 @@ div.slide-kitten {
   font-size: 40px;
   font-weight: bold;
 }
->>>>>>> 51d72d1ba1575faabf5e01b5cd23fe652a63aba9
