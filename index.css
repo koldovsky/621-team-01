@@ -61,4 +61,15 @@ h1 {
   color: var(--title-color);
 }
 
-
+.footer-nav {
+  background-color: rgb(250, 244, 242);
+}
+.footer-menu {
+  background-color: rgb(250, 244, 242);
+}
+.number {
+  color: var(--button-color);
+  font-family: var(--title-font-family);
+  font-size: 40px;
+  font-weight: bold;
+}
