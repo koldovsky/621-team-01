@@ -42,6 +42,7 @@ h1 {
 .paragraph {
   font-family: var(--original-font-family); 
   text-align: center;
+  font-size: 19px;
 }
 
 .top-categories, a {
@@ -60,5 +61,13 @@ h1 {
 .top-good-name {
   color: var(--title-color);
 }
-
-
+div.slide-kitten {
+  font-family: var(--original-font-family);
+  font-size: 17px;
+  font-weight: 100;
+  text-decoration-line: none;
+}
+.small-bone {
+  display: block;
+  margin: auto;
+}
