@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --title-color: rgb(60, 55, 49);
   --original-text-color: rgb(149, 139, 126);
@@ -6,7 +12,9 @@
   --buy-color: rgb(69, 193, 199);
   --title-font-family: 'Baloo 2', cursive;
   --original-font-family: 'PT Sans', sans-serif;
+  scroll-behavior: smooth;
 }
+
 body{
   font-family: var(--original-font-family);
   color: var(--original-text-color); 
@@ -15,6 +23,7 @@ h1,h2,h3,h4 {
   font-family: var(--title-font-family); 
   color: var(--title-color);
 }
+
 h1 {
   font-size: 82px;
 }
@@ -60,16 +69,4 @@ h1 {
 
 .top-good-name {
   color: var(--title-color);
-}
-.footer-nav {
-  background-color: rgb(250, 244, 242);
-}
-.footer-menu {
-  background-color: rgb(250, 244, 242);
-}
-.number {
-  color: var(--button-color);
-  font-family: var(--title-font-family);
-  font-size: 40px;
-  font-weight: bold;
 }

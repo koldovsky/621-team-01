@@ -1,0 +1,162 @@
+.footer-nav {
+    background-color: rgb(250, 244, 242);
+  }
+  
+  .footer-menu {
+    background-color: rgb(250, 244, 242);
+    text-align: center;
+    background-position: center;
+  }
+  
+  .number {
+    color: var(--button-color);
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  footer h2 {
+    text-align: center;
+    margin: 45px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+  }
+  
+  .navigation, .customer-service, .help-information {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .map {
+    min-width: 320px;
+    margin-top: 35px;
+  }
+  
+  .paw-logo img {
+    max-width: 250px;
+    padding: 20px 20px 20px 30px;
+    margin-top: 40px;
+  }
+  
+  .map-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .text-block {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .footer-nav h4 {
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--buy-color);
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+  }
+  
+  footer .footer-nav p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sale-week {
+    font-family: var(--original-font-family);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .arrow {
+    color: var(--buy-color);
+  }
+  
+  .sale-week:hover {
+    text-decoration: underline;
+  }
+
+  .email-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .button-subscribe {
+    background-color: #fce6d5;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+    color: var(--button-color);
+    font-weight: bold;
+    letter-spacing: 0.60px; 
+    text-align: center;
+    transition: color 0.3s;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .button-subscribe:hover {
+    background-color: rgb(157, 232, 235);
+    color: var(--buy-color);
+  }
+
+  .footer-nav form input {
+    background-color: #f4e6e2;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    letter-spacing: 0.60px; 
+    padding: 10px 10px 10px 10px;
+    color: var(--original-text-color);
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+  }
+
+  .logo-footer img {
+    max-width: 250px;
+    padding: 20px 20px 20px 0px;
+    margin-top: 0px;
+  }
+
+
+  .contacts-bottom {
+    color: var(--button-color);
+    font-weight:bold;
+    background-color: rgb(242, 232, 228);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .footer-menu p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .footer-menu p a {
+    font-family: var(--original-font-family);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footer-menu p a:hover {
+    text-decoration: underline;
+  }
