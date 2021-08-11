@@ -1,0 +1,29 @@
+
+
+.top-recommend h2 {
+
+     text-align:center;
+}
+
+.top-recommend a {
+    text-decoration: none;
+
+}
+
+.top-recommend img.small-bone {
+    display:block;
+    margin: auto;
+
+}
+
+.top-recommend .top-recommend-text {
+    text-align:center;
+}
+
+.top-categories {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-column: 2/4;
+}
+
