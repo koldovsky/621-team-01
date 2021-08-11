@@ -1,0 +1,32 @@
+#animal-feed-catalog {
+    padding: 0px 24px;
+    background-color: rgb(250,245,242);
+}
+
+#animal-feed-catalog h2 {
+    text-align: center;
+}
+
+#animal-feed-catalog > p {
+    text-align: center;
+}
+
+#animal-feed-catalog .small-bone {
+    display: block;
+    margin: auto;
+}
+
+#animal-feed-catalog div img {
+    width: 70px;
+    height: 70px;
+}
+
+#animal-feed-catalog .underline {
+    background-color: #45c1c7;
+    height: 3px;
+    width: 10%;
+}
+
+#animal-feed-catalog .feed {
+    display: grid;
+}
