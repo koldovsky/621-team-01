@@ -9,6 +9,7 @@
     <link rel="Icon" href="img/icon.png">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/controls.css">
 </head>
 
 <body>
@@ -127,111 +128,124 @@
             </div>
         </div>
         <div class="trending-products">
-            <h2>Trending Products</h2>
-            <img src="img/bone.svg" width="70" alt="small-bone">
-            <p class="paragraph">Top-selling items and popular picks by our customers. Check them now!</p>
+            <h2 id="trending-products">Trending Products</h2>
+            <img src="img/bone.svg" width="100" alt="bone-icon">
+            <p>Top-selling items and popular picks by our customers. Check them now!</p>
         </div>
-        <div class="carousel-trending-products-section-content" id="trending-products">
-            <div class="slide-kitten">
-                <a href="kitten's-heaven-set.html"><img src="img/kitten's-heaven-set.png" width="200"
-                        alt="kitten's-heaven-set"></a>
-                <a href="kitten's-heaven-set">Kitten's Heaven Set</a>
-                <p>$12.00</p>
-                <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-dora-metal-pet-brush">
-                <a href="dora-metal-pet-brush"><img src="img/dora-metal-pet-brush.png" width="200"
-                        alt="dora-metal-pet-brush"></a>
-                <a href="dora-metal-pet-brush">DORA Metal Pet Brush</a>
-                <p>$15.00</p>
-                <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-opty-pet-carrier">
+        <div class="carousel-trending-products-section-content">
+            <article>
+              <div class="slide-kitten's-heaven-set">
+                 <a href="kitten's-heaven-set.html"><img src="img/kitten's-heaven-set.png" width="200" alt="kitten's-heaven-set"></a>
+                 <a class="name" href="kitten's-heaven-set">Kitten's Heaven Set</a>
+                 <p class="price">$12.00</p>
+                 <a class="button" href="add-to-card">Add to Card</a>
+              </div>
+            </article>
+            <article>
+              <div class="slide-dora-metal-pet-brush">
+                 <a href="dora-metal-pet-brush"><img src="img/dora-metal-pet-brush.png" width="200" alt="dora-metal-pet-brush"></a>
+                 <a class="name" href="dora-metal-pet-brush">DORA Metal Pet Brush</a>
+                 <p class="price">$15.00</p>
+                 <a class="button" href="add-to-card">Add to Card</a>
+              </div>
+            </article>
+            <article>
+              <div class="slide-opty-pet-carrier">
                 <a href="opty-pet-carrier"><img src="img/opty-pet-carrier.png" width="200" alt="opty-pet-carrier"></a>
-                <a href="opty-pet-carrier">Opty Pet Carrier</a>
-                <p>$8.00</p>
+                <a class="name" href="opty-pet-carrier">Opty Pet Carrier</a>
+                <p class="price">$8.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-aga-rope-toy">
+              </div>
+            </article>
+            <article>
+              <div class="slide-aga-rope-toy">
                 <a href="aga-rope-toy"><img src="img/aga-rope-toy.png" width="200" alt="aga-rope-toy"></a>
-                <a href="aga-rope-toy">AGA Rope Toy</a>
-                <p>$5.00</p>
+                <a class="name" href="aga-rope-toy">AGA Rope Toy</a>
+                <p class="price">$5.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-dora-pet-carrier">
+              </div>
+            </article>
+            <article>
+              <div class="slide-dora-pet-carrier">
                 <a href="dora-pet-carrier"><img src="img/dora-pet-carrier.png" width="200" alt="dora-pet-carrier"></a>
-                <a href="dora-pet-carrier">DORA Pet Carrier</a>
-                <p>$23.00</p>
+                <a class="name" href="dora-pet-carrier">DORA Pet Carrier</a>
+                <p class="price">$23.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
+              </div>
+            </article>
         </div>
-        <div class="ad-cards">
-            <div class="save-ten-per-cent">
-                <h2>Save <span class="discount">10%</span> on Aquariums</h2>
-                <a href="#discover-now" class="button">Discover Now</a>
-            </div>
+        <div class="ad-cardss">
             <div>
-                <p>TOYS, TREATS & LEASHES</p>
-                <h3>Best Picks for Your Pets</h3>
-                <p>from $1.99</p>
-                <a href="#learn-more" class="button">Learn More</a>
+                <h2 class="aquariums">Save <span class="discount">10%</span> on Aquariums</h2>
+                <a href="#discover-now" class="button">Discover Now→</a>
+            </div>
+             <div>
+                 <p class="name">TOYS, TREATS & LEASHES</p>
+                 <h3>Best Picks for Your Pets</h3>
+                 <p class="price">from <span class="discount">$1.99</span></p>
+                 <a href="#learn-more" class="button">Learn More→</a>
             </div>
         </div>
-        <div class="carousel-trade marks">
-            <img src="img/gourmet.webp" width="200" alt="gourmet-trade-mark">
-            <img src="img/tigerino.webp" width="150" alt="tigerino-trade-mark">
-            <img src="img/felix.webp" width="100" alt="felix-trade-mark">
-            <img src="img/applaws.webp" width="150" alt="applaws-trade-mark">
-            <img src="img/dokas.webp" width="150" alt="dokas-trade-mark">
-            <img src="img/purizon.webp" width="150" alt="purizon-trade-mark">
-            <img src="img/rocco.webp" width="150" alt="rocco-trade-mark">
-        </div>
+          <div class="carousel-trade marks">
+               <img src="img/gourmet.webp" width="200" alt="gourmet-trade-mark">
+               <img src="img/tigerino.webp" width="150" alt="tigerino-trade-mark">
+               <img src="img/felix.webp" width="100" alt="felix-trade-mark">
+               <img src="img/applaws.webp" width="150" alt="applaws-trade-mark">
+               <img src="img/dokas.webp" width="150" alt="dokas-trade-mark">
+               <img src="img/purizon.webp" width="150" alt="purizon-trade-mark">
+               <img src="img/rocco.webp" width="150" alt="rocco-trade-mark">
+          </div>
         <div class="our-new-arrivals">
             <h2>Our New Arrivals</h2>
-            <img src="img/small-bone.svg" width="70" alt="small-bone">
-            <p class="paragraph">We offer affordable and safe toys and accessories for your pets</p>
-        </div>
+            <img src="img/small-bone.svg" width="100" alt="small-bone">
+            <p>We offer affordable and safe toys and accessories for your pets</p>
+        </div>  
         <div class="carousel-new-arrivals-section-content">
-            <div class="slide-vitalife-crunch-sticks-treat">
-                <a href="vitalife-crunch-sticks-treat"><img src="img/vitalife-crunch-sticks-treat.png" width="200"
-                        alt="vitalife-crunch-sticks-treat"></a>
-                <a href="vitalife-crunch-sticks-treat">VITALIFE Crunch Sticks Treat</a>
-                <p>$5.00</p>
+            <article>
+              <div class="slide-vitalife-crunch-sticks-treat">
+                <a href="vitalife-crunch-sticks-treat"><img src="img/vitalife-crunch-sticks-treat.png" width="200" alt="vitalife-crunch-sticks-treat"></a>
+                <a class="name" href="vitalife-crunch-sticks-treat">VITALIFE Crunch Sticks Treat</a>
+                <p class="price">$5.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-duna-woven-toy">
+              </div>
+            </article>
+            <article>
+              <div class="slide-duna-woven-toy">
                 <a href="duna-woven-toy"><img src="img/duna-woven-toy.png" width="200" alt="duna-woven-toy"></a>
-                <a href="duna-woven-toy">DUNA Woven Toy</a>
-                <p>$1.50</p>
+                <a class="name" href="duna-woven-toy">DUNA Woven Toy</a>
+                <p class="price">$1.50</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-sera-woven-leash">
+              </div>
+            </article>
+            <article>
+              <div class="slide-sera-woven-leash">
                 <a href="sera-woven-leash"><img src="img/sera-woven-leash.png" width="200" alt="sera-woven-leash"></a>
-                <a href="sera-woven-leash">SERA Woven Leash</a>
-                <p>$2.00</p>
+                <a class="name" href="sera-woven-leash">SERA Woven Leash</a>
+                <p class="price">$2.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-opty-plastick-bowl">
-                <a href="opty-plastick-bowl"><img src="img/opty-plastic-bowl.png" width="200"
-                        alt="opty-plastic-bowl"></a>
-                <a href="opty-plastick-bowl">OPTY Plastick Bowl</a>
-                <p>$3.00</p>
+              </div>
+            </article>
+            <article>
+              <div class="slide-opty-plastick-bowl">
+                <a href="opty-plastick-bowl"><img src="img/opty-plastic-bowl.png" width="200" alt="opty-plastic-bowl"></a>
+                <a class="name" href="opty-plastick-bowl">OPTY Plastick Bowl</a>
+                <p class="price">$3.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
-            <div class="slide-ego-butterfly-toy">
-                <a href="ego-butterfly-toy"><img src="img/ego-butterfly-toy.png" width="200"
-                        alt="ego-butterfly-toy"></a>
-                <a href="ego-butterfly-toy">EGO Butterfly Toy</a>
-                <p>$8.00</p>
+              </div>
+            </article>
+            <article>
+              <div class="slide-ego-butterfly-toy">
+                <a href="ego-butterfly-toy"><img src="img/ego-butterfly-toy.png" width="200" alt="ego-butterfly-toy"></a>
+                <a class="name" href="ego-butterfly-toy">EGO Butterfly Toy</a>
+                <p class="price">$8.00</p>
                 <a class="button" href="add-to-card">Add to Card</a>
-            </div>
+              </div>
+            </article>
         </div>
         <div class="promotion">
             <p>Promotion</p>
             <h2>Cat Week is Finally Here!</h2>
-            <p>Don't miss special prices on products for cats: beds, litter boxes, feeders, and much more. Enjoy up to
-                <span class="discount">-30%</span> on selected items!
-            </p>
+            <p>Don't miss special prices on products for cats: beds, litter boxes, feeders, and much more. Enjoy up to <span class="discount">-30%</span> on selected items!</p>
             <a class="button" href="shop-now">Shop Now</a>
         </div>
         <div class="top-recommendation">

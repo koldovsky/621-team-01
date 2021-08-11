@@ -67,6 +67,63 @@ h1 {
   height: 270px;
 }
 
+
 .top-good-name {
   color: var(--title-color);
+}
+main div.trending-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+}
+main div.our-new-arrivals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  font-family: var(--title-font-family);
+  color: var(--title-color);
+}
+main div.trending-products > p {
+  font-family: var(--original-font-family);
+  color: var(--original-text-color);
+}
+main div.our-new-arrivals > p {
+  font-family: var(--original-font-family);
+  color: var(--original-text-color);
+}
+main div.carousel-trending-products-section-content article a {
+  font-family: var(--original-font-family);
+  color: rgb(60, 55, 49);
+  text-decoration: none;
+}
+main div.carousel-new-arrivals-section-content article a {
+  font-family: var(--original-font-family);
+  color: rgb(60, 55, 49);
+  text-decoration: none;
+}
+main div article a.name:hover {
+  font-family: var(--original-font-family);
+  color: rgb(235, 141, 26);
+  text-decoration: none;
+}
+main div article p.price {
+  color: var(--original-text-color);
+}
+main div.ad-cardss h2 {
+  font-family: var(--title-font-family);
+  
+}
+main div.ad-cardss span.discount {
+  color: red;
+}
+main div.ad-cardss p.price {
+  color: var(--original-text-color);
+  font-style: italic;
+}
+main div.ad-cardss h3 {
+  font-family: var(--title-font-family);
 }
