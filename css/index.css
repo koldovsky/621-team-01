@@ -228,8 +228,9 @@ main div.ad-cardss h2 {
   font-family: var(--title-font-family);
   
 }
-main div.ad-cardss span.discount {
+main div.ad-cardss span.discounts {
   color: red;
+  background-color: transparent;
 }
 main div.ad-cardss p.price {
   color: var(--original-text-color);
@@ -237,4 +238,8 @@ main div.ad-cardss p.price {
 }
 main div.ad-cardss h3 {
   font-family: var(--title-font-family);
+}
+main span.discounts {
+  color: red;
+  background-color: transparent;
 }
