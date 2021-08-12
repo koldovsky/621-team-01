@@ -1,6 +1,9 @@
 #animal-feed-catalog {
     padding: 0px 24px;
     background-color: rgb(250,245,242);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 #animal-feed-catalog h2 {
@@ -17,8 +20,10 @@
 }
 
 #animal-feed-catalog div img {
+    border-radius: 50%;
     width: 70px;
     height: 70px;
+
 }
 
 #animal-feed-catalog .underline {
@@ -27,6 +32,15 @@
     width: 10%;
 }
 
-#animal-feed-catalog .feed {
+.feed {
     display: grid;
+    grid-template-columns: 30% 70%;
+
+
+}
+
+.feed .line-price {
+    width: auto;
+    height: 1px;
+    background-color: rgb(149, 139, 126);
 }
