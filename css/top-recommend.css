@@ -1,4 +1,7 @@
-
+.top-recommend {
+    display: flex;
+    flex-direction: column;
+}
 
 .top-recommend h2 {
 
@@ -10,9 +13,17 @@
 
 }
 
+.top-recommend img {
+    width: 272px;
+    height: 272px;
+}
+
 .top-recommend img.small-bone {
     display:block;
     margin: auto;
+    width: 100px;
+    height: 44px;
+    padding: 25px;
 
 }
 
@@ -21,9 +32,14 @@
 }
 
 .top-categories {
-    font-size: 10px;
-    display: grid;
-    grid-template-columns: 90px 90px 90px;
-    grid-column: 2/4;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border-bottom-color: black;
+    border-width: 3px;
+
+    
 }
 
