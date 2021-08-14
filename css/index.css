@@ -164,22 +164,18 @@ main div article a.name:hover {
 main div article p.price {
   color: var(--original-text-color);
 }
-main div.ad-cardss h2 {
+main div.ad-cards h2 {
   font-family: var(--title-font-family);
   
 }
-main div.ad-cardss span.discounts {
-  color: red;
-  background-color: transparent;
-}
-main div.ad-cardss p.price {
+main div.ad-cards p.price {
   color: var(--original-text-color);
   font-style: italic;
 }
-main div.ad-cardss h3 {
+main div.ad-cards h3 {
   font-family: var(--title-font-family);
 }
-main span.discounts {
+main div.ad-cads span.discount {
   color: red;
   background-color: transparent;
 }
