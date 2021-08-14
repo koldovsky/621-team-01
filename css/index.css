@@ -210,6 +210,7 @@ main div.carousel-trending-products-section-content article a {
   font-family: var(--original-font-family);
   color: rgb(60, 55, 49);
   text-decoration: none;
+  font-weight: 400;
 }
 main div.carousel-new-arrivals-section-content article a {
   font-family: var(--original-font-family);
@@ -256,22 +257,78 @@ div.ad-cardss {
   height: 380px ;
 }
 .ad-cardss div.ad-card-aquariums {
+  margin: 120px 30px 10px 30px;
   background-image: url(../img/save-ten-per-cent-on-aquariums.webp);
   background-size: cover;
   background-position: center;
+  max-width: 100%;
+  display: block;
 }
 .ad-cardss div.toys {
+  margin: 120px 30px 10px 30px;
   background-image: url(../img/best-picks-for-your-pets.webp);
   background-size: cover;
   background-position: left;
+  max-width: 100%;
+  display: block;
+}
+.ad-cardss > div {
+  text-align: center;
+}
+.ad-cardss > div span {
+  color: red;
 }
 @media (min-width: 600px) {
   .ad-cardss{
     display: grid;
-    grid-gap: 15px; 
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
   }
 }
-.ad-cardss > div {
-  text-align: center;
+@media (min-width: 600px) {
+  .carousel-trade-marks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+}
+main div.promotion {
+  background-image: url(../img/background-cat-week.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 120vh;
+  width: 100%;
+}
+main div.container-promotion span {
+  color: var(--buy-color);
+}
+main div.container-promotion > p.subtitle {
+  font-family: var(--original-font-family);
+  font-size: 19px;
+  font-weight: 400;
+}
+main div.container-promotion > p.first-subtitle {
+  font-family: var(--original-font-family);
+  font-size: 15px;
+  font-weight: 700;
+}
+main div.container-promotion > h2 {
+  font-family: var(--title-font-family);
+  font-size: 82px;
+  font-weight: 700;
+}
+main div.container-promotion span.discounts {
+  color: red;
+  }
+@media (min-width: 600px) {
+  main div.promotion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+main div.container-promotion {
+  margin: 120px 20px 30px 60px;
 }

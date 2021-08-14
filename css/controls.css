@@ -26,3 +26,19 @@ main div.ad-cardss a.button:hover {
     text-decoration: underline;
     text-align: center;
 }
+main div.container-promotion > a.button {
+    padding: 0.7em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 2em 2em 2em 2em;
+    border-radius: 2em;
+    color: rgb(23, 145, 151);
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: rgba(87, 214, 221, 0.582);
+}
+main div.container-promotion > a.button:hover {
+    color: rgb(233, 113, 0);
+    background-color: rgba(255, 175, 83, 0.582);
+    cursor: pointer;
+}
