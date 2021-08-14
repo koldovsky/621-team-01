@@ -235,7 +235,7 @@ main div.ad-cards p.price {
 main div.ad-cards h3 {
   font-family: var(--title-font-family);
 }
-main div.ad-cads span.discount {
+main div.ad-cads span.discounts {
   color: red;
   background-color: transparent;
 }
