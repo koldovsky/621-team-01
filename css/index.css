@@ -239,3 +239,39 @@ main div.ad-cads span.discounts {
   color: red;
   background-color: transparent;
 }
+.our-new-arrivals {
+  color: var(--title-color);
+  font-family: var(--title-font-family);
+  font-size: 30px;
+  display: inline;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+div.ad-cardss {
+  background-color: #FAF4F2;
+}
+.ad-cardss > div {
+  margin: 20px 20px 20px 20px;
+  width: 580px ;
+  height: 380px ;
+}
+.ad-cardss div.ad-card-aquariums {
+  background-image: url(../img/save-ten-per-cent-on-aquariums.webp);
+  background-size: cover;
+  background-position: center;
+}
+.ad-cardss div.toys {
+  background-image: url(../img/best-picks-for-your-pets.webp);
+  background-size: cover;
+  background-position: left;
+}
+@media (min-width: 600px) {
+  .ad-cardss{
+    display: grid;
+    grid-gap: 15px; 
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.ad-cardss > div {
+  text-align: center;
+}
