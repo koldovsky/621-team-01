@@ -90,66 +90,6 @@ main .paragraph-food-pets {
   font-weight: 400;
 }
 
-main .about-us {
- padding: 90px 24px 35px 24px;
- background-color: rgb(250, 244, 242);
-}
-
-.img-animal {
-  display: block;
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-}
-
-@media (min-width: 400px) {
-  main .img-animal  {
-    max-width: 600px;
-  }
-}
-
-.banner-about {
-  font-size: 30px;
-}
-
-main div.service{
-  background-color: rgb(250, 244, 242);
-  padding: 35px 0 90px 0;
-}
-
-main div.free-shipping {
-  display: flex;
-  flex-direction: row;
-  padding: 0 15px 0 15px;
-}
-
-main div.about {
-  box-sizing: border-box;
-  padding: 0 30px 0 30px;
-}
-
-main div.text-free-shipping {
-  box-sizing: border-box;
-  margin: 0 7.5px 0 7.5px;
-}
-
-main .title-free-shipping {
-  font-size: 22px;
-}
-
-@media (min-width: 400px) {
-  main div.about-us {
-    display: flex;
-  }
-}
-
-@media (min-width: 400px) {
-  main div.service {
-    display: flex;
-    justify-content: center;
-  }
-}
-
 .trending-products {
   color: var(--title-color);
   font-family: var(--title-font-family);
