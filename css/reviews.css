@@ -1,0 +1,28 @@
+.rewiews h2 {
+    text-align: center;
+}
+
+.carousel-reviews img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.carousel-reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    border-color: var(--button-color:rgb(237, 100, 53));
+    border-width: 1px;
+    width: 470px;
+    
+}
+
+.review p {
+    font-style: italic;
+}
