@@ -1,9 +1,7 @@
 (function() {
   
     const slides = [
-        '<img src="img/cat.png" alt="Cat">',
-        '<img src="img/dog.png" alt="Dog">',
-        '<img src="img/parrot.png" alt="Parrot">'
+
     ];
 
     let currentSlideIdx = 0;
