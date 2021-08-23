@@ -272,3 +272,9 @@ main div.container-promotion span.discounts {
 main div.container-promotion {
   margin: 120px 20px 30px 60px;
 }
+
+div.carousel-new-arrivals-section-content article {
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
