@@ -200,13 +200,13 @@
                 <a href="#learn-more" class="button">Learn More→</a>
             </div>
             <div class="carousel-trade-marks">
-                <img src="img/gourmet.webp" width="200" alt="gourmet-trade-mark">
-                <img src="img/tigerino.webp" width="150" alt="tigerino-trade-mark">
-                <img src="img/felix.webp" width="100" alt="felix-trade-mark">
-                <img src="img/applaws.webp" width="150" alt="applaws-trade-mark">
-                <img src="img/dokas.webp" width="150" alt="dokas-trade-mark">
-                <img src="img/purizon.webp" width="150" alt="purizon-trade-mark">
-                <img src="img/rocco.webp" width="150" alt="rocco-trade-mark">
+                <img class="slide" src="img/gourmet.webp" width="200" alt="gourmet-trade-mark">
+                <img class="slide" src="img/tigerino.webp" width="150" alt="tigerino-trade-mark">
+                <img class="slide" src="img/felix.webp" width="100" alt="felix-trade-mark">
+                <img class="slide" src="img/applaws.webp" width="150" alt="applaws-trade-mark">
+                <img class="slide" src="img/dokas.webp" width="150" alt="dokas-trade-mark">
+                <img class="slide" src="img/purizon.webp" width="150" alt="purizon-trade-mark">
+                <img class="slide" src="img/rocco.webp" width="150" alt="rocco-trade-mark">
             </div>   
         </div>
         <div class="our-new-arrivals">
@@ -261,16 +261,35 @@
               </div>
             </article>
         </div>
-        <div class="promotion">
-            <div class="container-promotion">
-              <p class="first-subtitle"><span>Promotion</span></p>
-              <h2>Cat Week is Finally Here!</h2>
-              <p class="subtitle">Don't miss special prices on products for cats: beds, litter boxes, feeders, and much more. Enjoy up to <span class="discounts">-30%</span> on selected items!</p>
-              <br>
-              <a class="button" href="shop-now">Shop Now</a>
-            </div>  
-            <div class="no-div"></div>
-        </div>
+            <div class="promotion">
+                <div class="container-promotion">
+                <p class="first-subtitle"><span>Promotion</span></p>
+                <h2>Cat Week is Finally Here!</h2>
+                <p class="subtitle">Don't miss special prices on products for cats: beds, litter boxes, feeders, and much more. Enjoy up to <span class="discounts">-30%</span> on selected items!</p>
+                <br>
+                <div class="countdown" id="countdown">
+                    <div class="time">
+                        <h4 id="days">00</h4>
+                        <small>days</small>
+                    </div>
+                    <div class="time">
+                        <h4 id="hours">00</h4>
+                        <small>hours</small>
+                    </div>
+                    <div class="time">
+                        <h4 id="minutes">00</h4>
+                        <small>minutes</small>
+                    </div>
+                    <div class="time">
+                        <h4 id="seconds">00</h4>
+                        <small>seconds</small>
+                    </div>
+                </div>
+                <br>
+                <a class="button" href="shop-now">Shop Now</a>
+                </div>  
+                <div class="no-div"></div>
+            </div>
         <div class="top-recommend">
             <h2>Top Recommendations</h2>
             <img class="small-bone" width="70" src="img/small-bone.svg" alt="small bone">
@@ -708,6 +727,8 @@
     </footer>
     <script src="js/index.js"></script>
     <script src="js/prod-list.js"></script>
+    <script src="js/countdown-promotion.js"></script>
+    <script src="js/trade-marks-carousel.js"></script>
 </body>
 
 </html>
