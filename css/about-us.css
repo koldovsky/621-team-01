@@ -3,8 +3,7 @@ main div.about-store {
 }
 
 main .about-us {
-  padding: 90px 15px 35px 15px;
-
+  padding: 90px 15px 15px 15px;
 }
 
 main .img-animal {
@@ -24,13 +23,14 @@ main .banner-about {
   font-size: 30px;
   width: 100%;
   margin-bottom: 0.8em;
-  margin-top: 0.4em;
+  margin-top: 40px;
   line-height: 1.2;
 }
 
 @media (min-width: 767px) {
   main .banner-about  {
     font-size: 47px;
+    margin-top: 0.4em;
   }
 }
 
@@ -43,6 +43,7 @@ main .paragraph-about {
   main .paragraph-about  {
     font-size: 20px;
   }
+}
 
 main .mini-paragraph-about {
   font-size: 17px;
@@ -60,31 +61,34 @@ main ul.li-about {
 }
 
 main div.service {
-  padding: 35px 0 90px 0;
+  padding: 0 0 90px 0;
   box-sizing: border-box; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  main div.service {
+    display: flex;
+    justify-content: center;
+  }
 }
    
 main div.service-box {
   display: flex;
   flex-direction: row;
   padding: 0 15px 0 15px;
+  margin-top: 50px;
 }
  
-@media (min-width: 767px) {
-  main .service-img {
-    padding: 1em 1em;
-    border: 0.1em solid  rgb(255, 230, 212));
-    border-radius: 3.5em; 
-    background-color: rgb(255, 230, 212);
-    width: max-content; 
-    font-size: 100%;
-    height: 26px;
-  }
+main .service-img {
+  fill:rgb(247, 186, 142);
+  padding: 1em 1em;
+  border: 0.1em solid  rgb(255, 230, 212);;
+  border-radius: 3.5em; 
+  background-color: rgb(255, 230, 212);
+  width: max-content; 
+  font-size: 100%;
+  height: 26px;
 }
-
 
 main div.about {
   box-sizing: border-box;
@@ -113,9 +117,3 @@ main .title-service {
   }
 }
    
-@media (min-width: 767px) {
-  main div.service {
-    display: flex;
-    justify-content: center;
-  }
-}
