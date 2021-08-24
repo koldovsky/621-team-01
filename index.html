@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/animal-feed-catalog.css">
     <link rel="stylesheet" href="css/ad-cads.css">
+    <link rel="stylesheet" href="css/categories.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
                 <a href="#categories">Categories</a>
                 <a href="#bestseller">Best Seller</a>
                 <a href="#arrivals">New Arrivals</a>
-                <a href="#shop">Our Shop</a>
+                <a href="#products">Our Shop</a>
             </div>
             <div class="social-icons">
                 <a href="https://www.facebook.com/">
@@ -71,48 +72,14 @@
                 <h2 class="banner-food-pets">Any Products for Any Pets</h2>
                 <img src="img/small-bone.svg" width="70" alt="small bone">
                 <p class="paragraph-food-pets">Best picks for your beloved companions only in Happy Paw.</p>
-                <div class="carousel-product">
-                    <div class="slide">
-                        <div class="slide-cat">
-                            <img src="img/cat.png" width="70" alt="Cat">
-                            <h4>For Cats →</h4>
-                            <p>Dry Food • Wet Food • Treats •&ensp;Catnip &amp; Grass • Litter Boxes •&ensp;Bowls &amp; Feeders
-                            • Toys • Beds •&nbsp;</p>
-                        </div>   
-                        <div class="slide-dog"> 
-                            <img src="img/dog.png" width="70" alt="Dog">
-                            <h4>For Dogs →</h4>
-                            <p>Dry &amp; Canned Food • Jerky •&ensp;Chewy Treats • Bowls • Toys •&ensp;Collars and Leashes •
-                            Clothes •</p>
-                        </div>
-                        <div class="slide-parrot"> 
-                            <img src="img/parrot.png" width="70" alt="Parrot">
-                            <h4>For Parrots →</h4>
-                            <p>Food • Treats • Cages &amp; Stands •&ensp;Vitamins • Bowls &amp; Feeders •&ensp;Litter &amp;
-                            Nesting • Odor Control •</p>
-                        </div>  
-                        <div class="slide-rabbit">
-                            <img src="img/rabbit.png" width="70" alt="Rabbit">
-                            <h4>For Rabbits →</h4>
-                            <p>Food • Treats • Hay • Cages •&ensp;Litter &amp; Bedding • Harnesses •&ensp;Toys • Odor Removers
-                            •&nbsp;</p>
-                        </div>
-                        <div class="slide-fish">
-                            <img src="img/fish.png" width="70" alt="Fish">
-                            <h4>For Fish →</h4>
-                            <p>Food • Feeders • Aquariums •&ensp;Filters &amp; Pumps • Cleaning •&ensp;Water Care • Decor •</p>
-                        </div>
-                        <div class="slide-hamster">
-                            <img src="img/hamster.png" width="70" alt="Hamster">
-                            <h4>For Hamsters →</h4>
-                            <p>Food • Soft &amp; Chewy Treats •&ensp;Litter • Furniture • Collars and Leashes • Bowls • Toys •
-                            Beds •&nbsp;</p>
-                        </div>
-                   </div>
+                    <button class="left-arrow"><img src="img/left-arrow.svg" alt="left"></button>
+                    <div class="carousel-product">
+                    <button class="right-arrow"><img src="img/right-arrow.svg" alt="right"></button>
                </div>
             </div>
         </section>
         <div class="about-store">
+            <div id="about">
             <div class="about-us">
                 <img class="img-animal" src="img/animal.webp" alt="Animals">
                 <div class="about">
@@ -130,6 +97,7 @@
                       <li>clothes, collars, and harnesses.</li>
                   </ul>
                 </div>   
+            </div>
             </div>
             <div class="service">
                 <div class="service-box">
@@ -163,6 +131,7 @@
             </div>
         </div>
         <div class="trending-products">
+            <div id="bestseller"></div>
             <h2 id="trending-products">Trending Products</h2>
             <img src="img/bone.svg" width="100" alt="bone-icon">
             <p>Top-selling items and popular picks by our customers. Check them now!</p>
@@ -236,6 +205,7 @@
             </div>   
         </div>
         <div class="our-new-arrivals">
+            <div id="arrivals"></div>
             <h2>Our New Arrivals</h2>
             <img src="img/small-bone.svg" width="100" alt="small-bone">
             <p>We offer affordable and safe toys and accessories for your pets</p>
@@ -317,17 +287,18 @@
                 <div class="no-div"></div>
             </div>
         <div class="top-recommend">
-            <h2>Top Recommendations</h2>
-            <img class="small-bone" width="70" src="img/small-bone.svg" alt="small bone">
-            <p class="top-recommend-text">Shop the best products for your pets with affordable prices only in the Happy Paw online store.</p>
-            <div class="top-categories">
-                <a class="" href="#top-for-dogs">For Dogs</a>
-                <a href="#top-for-cats">For Cats</a>
-                <a href="#top-for-parrots">For Parrots</a>
-                <a href="#top-for-rabbits">For Rabbits</a>
-                <a href="#top-for-hamsters">For Hamsters</a>
-                <a href="#top-for-fish">For For Fish</a>
-            </div>
+            <div id="products"></div>
+               <h2>Top Recommendations</h2>
+               <img class="small-bone" width="70" src="img/small-bone.svg" alt="small bone">
+               <p class="top-recommend-text">Shop the best products for your pets with affordable prices only in the Happy Paw online store.</p>
+                <div class="top-categories">
+                   <a class="" href="#top-for-dogs">For Dogs</a>
+                   <a href="#top-for-cats">For Cats</a>
+                   <a href="#top-for-parrots">For Parrots</a>
+                   <a href="#top-for-rabbits">For Rabbits</a>
+                   <a href="#top-for-hamsters">For Hamsters</a>
+                   <a href="#top-for-fish">For For Fish</a>
+                </div>
             <div id="top-for-dogs">
                 <div class="top-goods">
                     <a href="doggy-fun-set"><img src="img/dog-fun-set.png" alt="doggy fun set"></a>
@@ -526,40 +497,42 @@
             </div>
         </div>
         <div id="animal-feed-catalog">
-            <h2>Dry Food & Treats</h2>
-            <img class="small-bone" width="70" src="img/small-bone.svg" alt="small bone">
-            <p>Great well-balanced dry and canned food for your pets by the best producers.</p>
-            <div class="feed-for-dogs">
-                <h3>For Dogs</h3>
-                <div class="underline"></div>
-                <div class="feed-proposal">
-                    <div class="feed">
-                        <img src="img/natural-beef.png" alt="natural beef">
-                        <div>
-                            <h4>Natural Beef</h4>
-                            <div class="line-price"></div>
-                            <h4 class="feed-price">$2</h4>
-                            <p>Meat And Bone Meal, Corn Gluten Meal, Animal Fat, Soybean Meal, Natural Flavor.</p>
+            <div id="buy">
+               <h2>Dry Food & Treats</h2>
+               <img class="small-bone" width="70" src="img/small-bone.svg" alt="small bone">
+               <p>Great well-balanced dry and canned food for your pets by the best producers.</p>
+               <div class="feed-for-dogs">
+                   <h3>For Dogs</h3>
+                   <div class="underline"></div>
+                   <div class="feed-proposal">
+                       <div class="feed">
+                          <img src="img/natural-beef.png" alt="natural beef">
+                           <div>
+                              <h4>Natural Beef</h4>
+                              <div class="line-price"></div>
+                              <h4 class="feed-price">$2</h4>
+                              <p>Meat And Bone Meal, Corn Gluten Meal, Animal Fat, Soybean Meal, Natural Flavor.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="feed">
-                        <img src="img/natural-chicken.png" alt="natural chicken">
-                        <div>
-                            <h4>Natural Chicken</h4>
-                            <div class="line-price"></div>
-                            <h4 class="feed-price">$3</h4>
-                            <p>Deboned Chicken, Chicken Meal, Brown Rice, Corn, Corn Gluten Meal, Natural Flavor.</p>
+                       <div class="feed">
+                          <img src="img/natural-chicken.png" alt="natural chicken">
+                          <div>
+                              <h4>Natural Chicken</h4>
+                              <div class="line-price"></div>
+                              <h4 class="feed-price">$3</h4>
+                              <p>Deboned Chicken, Chicken Meal, Brown Rice, Corn, Corn Gluten Meal, Natural Flavor.</p>
+                           </div>
                         </div>
-                    </div>
-                    <div class="feed">
-                        <img src="img/natural-pork.png" alt="natural pork">
-                        <div>
-                            <h4>Natural Pork</h4>
-                            <div class="line-price"></div>
-                            <h4 class="feed-price">$3</h4>
-                            <p>Deboned Lamb, Chicken Meal, Split Peas, Lentils, Chicken Fat, Pork Meal, Dried Chicken, Pea.</p>
+                        <div class="feed">
+                           <img src="img/natural-pork.png" alt="natural pork">
+                           <div>
+                               <h4>Natural Pork</h4>
+                               <div class="line-price"></div>
+                               <h4 class="feed-price">$3</h4>
+                               <p>Deboned Lamb, Chicken Meal, Split Peas, Lentils, Chicken Fat, Pork Meal, Dried Chicken, Pea.</p>
+                           </div>
                         </div>
-                    </div>
+                   </div>
                 </div>
             </div>
             <div class="feed-for-cats">

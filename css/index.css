@@ -30,6 +30,12 @@ h1 {
   font-size: 48px;
 }
 
+@media (min-width: 767px) {
+  h1 {
+    font-size: 82px;
+  }
+}
+
 .contacts {
   color: var(--button-color);
   font-weight:bold;
@@ -42,7 +48,19 @@ header .title-page {
 }
 
 header .banner {
-  background-color: rgb(250, 244, 242)
+  background-image: url(../img/banner-pictures.webp);
+  height: 500px;
+  width: 400px;
+}
+
+@media (min-width: 767px) {
+  header .banner {
+  background-size: 100%;
+  background-size: cover;
+  height: 131vh;
+  position: relative;
+  width: 100%;
+  }
 }
 
 main #categories {
