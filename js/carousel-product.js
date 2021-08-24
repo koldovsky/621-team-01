@@ -51,14 +51,59 @@
       for (const product of allProducts) {
           productsHtml.push(`
                <div class="slide">
-                  <img src="${product.imgUrl}" width="70" alt="${product.name}">
+                  <img src="${product.imgUrl}" alt="${product.name}">
                   <h4>"${product.name}"</h4>
                   <p>"${product.description}"</p>
                </div>  
-            );
+            `);
         }
       return productsHtml;
+    }
+    showProducts(products);
   
+    const slidesProducts = [...productsHtml];
+    let currentSlideIdx = 0;
+    function showCurrentProductSlide() {
+      console.log(window.innerWidth);
+      if (window.innerWidth < 700) {
+        let slideContainer = document.querySelector(".carousel-product");
+        slideContainer.innerHTML = slidesProducts[currentSlideIdx];
+      } else {
+        let slideContainer = document.querySelector(".carousel-product");
+        slideContainer.innerHTML =
+          slidesProducts[currentSlideIdx] +
+          slidesProducts[currentSlideIdx + 1] +
+          slidesProducts[currentSlideIdx + 2];
+      }
+    }
+  
+    function nextProductSlide() {
+      if (window.innerWidth < 700) {
+        currentSlideIdx++;
+        if (currentSlideIdx >= slidesProducts.length) currentSlideIdx = 0;
+        showCurrentProductSlide();
+      } else {
+        currentSlideIdx += 3;
+        if (currentSlideIdx >= slidesProducts.length - 3) currentSlideIdx = 0;
+        showCurrentProductSlide();
+      }
+    }
+  
+    function previousProductSlide() {
+      currentSlideIdx--;
+      if (window.innerWidth < 700) {
+        if (currentSlideIdx < 0) currentSlideIdx = slidesProducts.length - 1;
+        showCurrentProductSlide();
+      } else {
+        if (currentSlideIdx <= 3) currentSlideIdx = slidesProducts.length - 3;
+        showCurrentProductSlide();
+      }
+    }
+  
+    setInterval(nextProductSlide, 5000);
+    showCurrentProductSlide();
+  
+    window.addEventListener("resize", showCurrentProductSlide);
    
     document
       .querySelector(".right-arrow")
