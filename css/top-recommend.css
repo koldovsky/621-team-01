@@ -44,8 +44,18 @@
     display: flex;
     justify-content: center;
     padding: 25px;
-    border-bottom-color: black;
+}
+
+.top-categories a {
+    color: var(--original-text-color);
+    font-size: 1.1rem;
     border-width: 3px; 
+    font-weight: bold;
+}
+
+.top-categories a:hover {
+    color:black;
+    transition-duration:0.5s;
 }
 
 .top-categories a {
