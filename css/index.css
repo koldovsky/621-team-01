@@ -261,9 +261,53 @@ main div.container-promotion span.discounts {
 main div.container-promotion {
   margin: 120px 20px 30px 60px;
 }
+main div.ad-cardss > div.ad-card-aquariums h2 {
+  position: relative;
+  top: 17%;
+  left: 3%;
+  font-size: 44px;
+  font-weight: 700;
+}
+main div.ad-cardss > div.ad-card-aquariums a {
+  position: relative;
+  top: 25%;
+  left: 4%;
+  font-size: 17px;
+  font-weight: 700;
+}
+main div.ad-cardss > div.toys p.paragraph {
+  position: relative;
+  top: 20%;
+  right: 29%;
+  font-size: 15px;
+  font-weight: 700;
+}
+main div.ad-cardss > div.toys h3 {
+  position: relative;
+  top: 25%;
+  right: 26%;
+  font-size: 32px;
+  font-weight: 700;
+}
+main div.ad-cardss > div.toys p.price {
+  position:relative;
+  top: 28%;
+  right: 35%;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: var(--original-font-family);
+  font-style: italic;
+}
+main div.ad-cardss > div.toys a.button {
+  position: relative;
+  top: 40%;
+  right: 30%
+}
 
-div.carousel-new-arrivals-section-content article {
-  display: grid;
-  grid-row-start: 1;
-  grid-row-end: 4;
+div.carousel-new-arrivals-section-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px;
 }
