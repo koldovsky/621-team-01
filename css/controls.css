@@ -42,3 +42,22 @@ main div.container-promotion > a.button:hover {
     background-color: rgba(255, 175, 83, 0.582);
     cursor: pointer;
 }
+main div.ad-cardss > div.toys a.button {
+    padding: 0.7em 1.2em;
+    border: 0.1em solid #ed6435;
+    margin: 2em 2em 2em 2em;
+    border-radius: 2em;
+    color:#ed6435;
+    font-family: var(--original-font-family);
+    font-size: 16.5px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+}
+main div.ad-cardss > div.toys a.button:hover {
+    color: #ffffff;
+    background-color: #ed6435;
+    cursor: pointer;
+}
