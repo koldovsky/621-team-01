@@ -1,13 +1,20 @@
+.container-feed-catalog {
+    background-color: rgb(250,245,242);
+    
+}
+
+
 #animal-feed-catalog {
     padding: 0px 24px;
-    background-color: rgb(250,245,242);
     flex-direction: column;
     margin: auto;
+    max-width: 1200;
     
 }
 
 #animal-feed-catalog h2 {
-    text-align: center;
+    text-align:center;
+    font-size: 3em;
 }
 
 #animal-feed-catalog > p {
@@ -15,8 +22,11 @@
 }
 
 #animal-feed-catalog .small-bone {
-    display: block;
+    display:block;
     margin: auto;
+    width: 70px;
+    height: 32px;
+    padding: 25px;
 }
 
 #animal-feed-catalog div img {
