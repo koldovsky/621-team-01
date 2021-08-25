@@ -1,5 +1,12 @@
 header{
     display: block;
+    background-color: rgb(250, 244, 242);
+}
+
+@media (min-width: 767px) {
+    header{
+    display: flex;
+    }
 }
 
 .controlsMenuLine {
@@ -37,10 +44,6 @@ header{
     transform: rotate(-45deg);
 }
 
-header .navigation {
-    background-color: rgb(250, 244, 242);
-}
-
 header .logo-company {
     position: relative;
     z-index: 1;
@@ -57,6 +60,45 @@ header .title-page {
     height: 90vh;
 }
 
+@media (min-width: 767px) {
+    header .title-page {
+      position: static;
+      display: flex;
+      height: auto;
+    }
+}
+
+header .contacts-one {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    header .contacts-one {
+       color: var(--button-color);
+       font-weight: 700;
+       font-size: 15px;
+       background-color: rgb(242, 232, 228);
+       display: flex;
+       justify-content: space-around;
+       padding: 10px 170px 10px 170px;
+       height: auto;
+    }
+}
+
+@media (min-width: 767px) {
+header .time-work {
+    margin-right: 590px;
+  }
+}
+
+@media (min-width: 767px) {
+ header .mail{
+   text-decoration: none;
+   color: var(--button-color);
+   padding-right: 15px;
+ }
+}
+
 header .contacts {
     color: var(--button-color);
     font-size: 15px;
@@ -68,12 +110,7 @@ header .contacts {
 
 @media (min-width: 767px) {
     header .contacts {
-        color: var(--button-color);
-        font-size: 15px;
-        background-color: rgb(242, 232, 228);
-        display: flex;
-        justify-content: space-around;
-        padding: 10px 150px 10px 150px;
+       display: none;
     }
 }
 
@@ -91,10 +128,12 @@ header .logo-company {
 
 @media (min-width: 767px) {
    header .logo-company {
-      font-size: 20px;
-      width: 182px;
-      padding-left: 24px;
+    display: none;
   }
+}
+
+header .logo-company-two {
+    display: none;
 }
 
 header .nav-menu{
@@ -107,9 +146,51 @@ header .menu {
     color: rgb(107, 107, 107);
     font-weight: 600;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 2.5;
 }
+
+@media (min-width: 767px) {
+   header nav.title-page {
+      padding-left: 15px;
+      padding-right: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 20px;
+      padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 767px) {
+   header .nav-menu{
+      display: flex;  
+      flex-direction: row;
+      margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 767px) {
+   header .logo-company-two {
+    display: block;
+    font-size: 20px;
+    width: 182px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 767px) {
+  header .menu {
+    padding-top: 10px;
+    padding-left: 35px;
+    transition: color 0.7s;
+  }
+}
+
+header .menu:hover {
+    color: var(--button-color);
+    text-decoration: underline solid rgb(107, 107, 107);
+    cursor: pointer;
 
 .facebook-icon {
     fill: green;
