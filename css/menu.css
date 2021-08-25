@@ -1,0 +1,117 @@
+header{
+    display: block;
+}
+
+.controlsMenuLine {
+    position: absolute;
+    right: 35px;
+    top: 45px;
+    z-index: 1;
+}
+
+@media (min-width: 767px) {
+    .controlsMenuLine {
+        display: none;
+    }
+}
+
+.burger-line {
+    display: block;
+    width: 24px;
+    height: 1.9px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
+}
+
+.close-menu {
+    display: none;
+}
+
+.close-menu .burger-line:first-child {
+    transform: rotate(45deg);
+    position: relative;
+    top: 7px;
+}
+
+.close-menu .burger-line:last-child {
+    transform: rotate(-45deg);
+}
+
+header .navigation {
+    background-color: rgb(250, 244, 242);
+}
+
+header .logo-company {
+    position: relative;
+    z-index: 1;
+}
+
+header .title-page {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: rgb(250, 244, 242);
+    height: 90vh;
+}
+
+header .contacts {
+    color: var(--button-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.5;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 767px) {
+    header .contacts {
+        color: var(--button-color);
+        font-size: 15px;
+        background-color: rgb(242, 232, 228);
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 150px 10px 150px;
+    }
+}
+
+header .mail{
+     text-decoration: none;
+     color: var(--button-color);
+}
+ 
+header .logo-company {
+    padding-left: 24px;
+    padding-top: 35px;
+    font-size: 20px;
+    width: 182px;
+}
+
+@media (min-width: 767px) {
+   header .logo-company {
+      font-size: 20px;
+      width: 182px;
+      padding-left: 24px;
+  }
+}
+
+header .nav-menu{
+    display: flex;  
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+header .menu {
+    color: rgb(107, 107, 107);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 2.5;
+}
+
+.facebook-icon {
+    fill: green;
+    color: green;
+}

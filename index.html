@@ -16,46 +16,60 @@
     <link rel="stylesheet" href="css/animal-feed-catalog.css">
     <link rel="stylesheet" href="css/ad-cads.css">
     <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
     <header>
-        <div class="banner">
-           <div class="contacts">
-               <p class="time-work"> Working Hours: 08 AM - 08 PM</p>
-               <p>Email: <a class="mail" href="mailto:happypaw@email.com"> happypaw@email.com</a> </p>
-               <p>Phone: <a class="mail" href="tel:+12345678900"> +1 (234)567 89 00</a> </p>
-           </div>
+        <div class="navigation">
+            <img class="logo-company" src="img/logo-company.svg" width=100 alt="Pet Store Logo">
+            <div class="controlsMenuLine">
+               <div class="open-menu open-mobile-menu-js">
+                   <span class="burger-line"></span>
+                   <span class="burger-line"></span>
+                   <span class="burger-line"></span>
+                </div>
+            <div class="close-menu close-mobile-menu-js">
+                   <span class="burger-line"></span>
+                   <span class="burger-line"></span>
+                </div>
+            </div>
            <nav class="title-page">
-              <img class="logo-company" src="img/logo-company.svg" width=100 alt="Pet Store Logo">
-                <div class="menu">
-                  <a href="#about">About Us</a>
-                  <a href="#categories">Categories</a>
-                  <a href="#bestseller">Best Seller</a>
-                  <a href="#arrivals">New Arrivals</a>
-                  <a href="#products">Our Shop</a>
+                <div class="nav-menu">
+                  <a class="menu" href="#about">About Us</a>
+                  <a class="menu" href="#categories">Categories</a>
+                  <a class="menu" href="#bestseller">Best Sellers</a>
+                  <a class="menu" href="#arrivals">New Arrivals</a>
+                  <a class="menu" href="#products">Our Shop</a>
+                </div>
+                <div class="contacts">
+                    <p class="time-work"> Working Hours: 08 AM - 08 PM</p>
+                    <p>Email: <a class="mail" href="mailto:happypaw@email.com"> happypaw@email.com</a> </p>
+                    <p>Phone: <a class="mail" href="tel:+12345678900"> +1 (234)567 89 00</a> </p>
                 </div>
                <div class="social-icons">
                   <a href="https://www.facebook.com/">
-                      <img src="img/facebook-icon.svg" width=50 alt="Facebook-icon">
-                   </a>
+                      <img class="facebook-icon" src="img/facebook-icon.svg" width=50 alt="Facebook-icon">
+                    </a>
                    <a href="https://www.instagram.com/">
                       <img src="img/instagram-icon.svg" width=50 alt="Instagram-icon">
                    </a>
                    <a href="https://www.youtube.com/">
                       <img src="img/youtube-icon.svg" width=50 alt="Youtube-icon">
-                   </a>
+                   </a> 
                 </div>
             </nav>
+        </div>    
+    </header>
+    <main>
+        <div class="banner">
             <h1>Everything Your Pet Needs</h1>
             <p class="banner-paragrahf">Pet supplies, food, and products from the best manufacturers.</p>
             <div class="button">
                 <a class="button-about-us" href="#about">About Us</a>
                 <a class="button-categories" href="#categories">Categories →</a>
             </div>
-        </div>
-    </header>
-    <main>
+        </div>  
         <div class="ad-cads">
             <div class="best-food">
                 <p class="producers-food">BUTCHERS, ROYAL CANIN, PEDIGREE</p>
@@ -828,6 +842,6 @@
     <script src="js/carousel-product.js"></script>
     <script src="js/countdown-promotion.js"></script>
     <script src="js/trade-marks-carousel.js"></script>
-    <script src="js/burger-menu.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
