@@ -143,9 +143,17 @@ main .banner-food-pets {
   font-weight: 700;
 }
 
+@media (min-width: 767px) {
+  main .banner-food-pets {
+    font-size: 50px;
+  }
+}
+
 main .paragraph-food-pets {
   font-size: 19px;
   font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .trending-products {
