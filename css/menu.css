@@ -191,6 +191,7 @@ header .menu:hover {
     color: var(--button-color);
     text-decoration: underline solid rgb(107, 107, 107);
     cursor: pointer;
+}
 
 .facebook-icon {
     fill: green;
