@@ -78,3 +78,31 @@ function updateTime() {
     document.querySelector('.carousel-prod').innerHTML = productsHtml;
 
 })();
+
+(function () {
+
+    const slides = [
+        '<img src="img/aga-mise-set.png" alt="Mise set">',
+        '<img src="img/2-bowls-set.png" alt="VITALIFE 2-Bowls Set">',
+        '<img src="img/aga-leash-collar.png" alt="aga leash collar">'
+    ];
+
+    let currentSlideIdx = 0;
+
+    function showCurrentSlide () {
+        const slideContainer = document.querySelector('.carousel-top-container .slide');
+        slideContainer.innerHTML = slides[currentSlideIdx];
+    }
+
+    function nextSlide () {
+        currentSlideIdx++;
+        if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
+        showCurrentSlide;
+    }
+
+    setInterval(nextSlide, 500);
+    showCurrentSlide();
+
+    document.querySelector('.carousel-top-container .next-top-slide');
+    addEventListener('click', nextSlide);
+})();
