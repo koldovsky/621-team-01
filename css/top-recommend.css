@@ -63,7 +63,7 @@
 }
 
 
-#top-for-dog, #top-for-cats, #top-for-parrots,  #top-for-rabbits, #top-for-hamsters, #top-for-fish {
+#top-for {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
