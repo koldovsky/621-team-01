@@ -193,7 +193,13 @@ header .menu:hover {
     cursor: pointer;
 }
 
-.facebook-icon {
-    fill: green;
-    color: green;
+.socials-icon-p {
+    fill:  rgb(69, 193, 199);
+    color:  rgb(69, 193, 199);
+    width: 35px;
+    transition: color 0.7s;
+}
+
+.socials-icon-p:hover {
+    fill:  rgb(23, 145, 151);
 }
