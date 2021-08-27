@@ -6,6 +6,7 @@
     background-color: rgb(250, 244, 242);
     text-align: center;
     background-position: center;
+    padding: 10px 10px 10px 10px;
   }
   
   .number {
@@ -30,6 +31,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      padding: 10px 10px 10px 10px;
   
   }
 
@@ -151,7 +153,12 @@
     padding: 20px 20px 20px 0px;
     margin-top: 0px;
   }
-
+  .or-line {
+    background-color: var(--button-color);
+    align-items: center;
+    height: 3px;
+    margin: 10px 0px 10px 0px;
+  }
 
   .contacts-bottom {
     color: var(--button-color);
@@ -183,3 +190,34 @@
     list-style-type: none;
   }
 
+@media (min-width: 767px) {
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .email-block {
+    padding: 0px 20px 0px 20px;
+    margin-top: 0;
+  }
+  .for-paddings {
+    padding: 0px 20px 0px 20px;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+  }
+  .logo-footer p {
+    text-align: left;
+    padding-right: 20px;
+  }
+  .or-line {
+    width: 30px;
+    height: 3px;
+    margin: 10px 0px 10px 0px;
+  }
+  .short-info {
+    max-width: 400px;
+  }
+}
