@@ -37,12 +37,17 @@ main .banner {
   min-height: 100vh;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
   main .banner {
-    background-size: 120%;
-    height: 124vh;
-    position: relative;
-    width: auto;
+    padding-bottom: 300px;
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .banner {
+    padding-bottom: 225px;
+    padding-top: 155px;
   }
 }
 
@@ -55,9 +60,15 @@ h1 {
 @media (min-width: 767px) {
   h1 {
     font-size: 82px;
-    padding-top: 170px;
+    padding-top: 50px;
     word-wrap: break-word;
-    width: 620px;
+    width: 620px; 
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  h1 {
     margin-left: 150px;
   }
 }
@@ -69,6 +80,12 @@ main .banner-paragrahf {
 }
 
 @media (min-width: 767px) {
+  main .banner-paragrahf {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
   main .banner-paragrahf {
     margin-left: 150px;
   }

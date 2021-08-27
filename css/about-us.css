@@ -4,18 +4,41 @@ main div.about-store {
 
 main .about-us {
   padding: 90px 15px 15px 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 767px) {
+  main div.about-us {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main div.about-us {
+    padding-left: 190px;
+    padding-right: 190px;
+    grid-gap: 30px;
+  }
 }
 
 main .img-animal {
   height: 100%;
   width: 100%;
-  font-size: 100%;
+  object-fit: contain;
+  object-position: 22.346% 59.824%;
 }
-   
-@media (min-width: 767px) {
-  main .img-animal  {
-    width: 550px;
-    height: 600px;
+
+@media (max-width: 767px) {
+  main .img-animal {
+    height: auto;
+    width: auto;
   }
 }
    
@@ -69,14 +92,34 @@ main div.service {
   main div.service {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-width: 0;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
-   
+ 
 main div.service-box {
   display: flex;
   flex-direction: row;
   padding: 0 15px 0 15px;
   margin-top: 50px;
+  flex: 0 0 50%;
+}
+
+@media (min-width: 767px) {
+  main div.service-box {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 991px) {
+  main div.service-box {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
 }
  
 main .service-img {
@@ -88,14 +131,6 @@ main .service-img {
   font-size: 100%;
   height: 56px;
 }
-
-main div.about {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-}
    
 main div.text-service {
   box-sizing: border-box;
@@ -105,14 +140,3 @@ main div.text-service {
 main .title-service {
   font-size: 22px;
 }
-   
-@media (min-width: 767px) {
-  main div.about-us {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 170px;
-    margin-right: 140px;
-  }
-}
-   

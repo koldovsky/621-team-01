@@ -10,7 +10,7 @@ header{
     z-index: 1;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
     .controlsMenuLine {
         display: none;
     }
@@ -58,7 +58,7 @@ header .title-page {
     height: 90vh;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
     header .title-page {
       position: static;
       display: flex;
@@ -70,31 +70,31 @@ header .contacts-one {
     display: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 991px) {
     header .contacts-one {
        color: var(--button-color);
        font-weight: 700;
        font-size: 15px;
        background-color: rgb(242, 232, 228);
-       display: flex;
-       justify-content: space-around;
-       padding: 15px 150px 15px 150px;
+       padding: 15px 24px 15px 24px;
        height: auto;
+       display: flex;
+       justify-content: space-between;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 991px) {
 header .time-work {
-    margin-right: 590px;
+   text-align: start;
   }
 }
 
-@media (min-width: 767px) {
- header .mail{
-   text-decoration: none;
-   color: var(--button-color);
-   padding-right: 15px;
- }
+@media (min-width: 990px) {
+  header .mail{
+      text-decoration: none;
+      color: var(--button-color);
+      padding-right: 15px;
+    }
 }
 
 header .contacts {
@@ -106,10 +106,16 @@ header .contacts {
     margin-bottom: 10px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
     header .contacts {
        display: none;
     }
+}
+
+header .mail-contacts {
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 header .mail{
@@ -117,7 +123,7 @@ header .mail{
      color: var(--button-color);
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
    header .logo-company {
     display: none;
   }
@@ -141,37 +147,57 @@ header .menu {
     line-height: 2.5;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
    header nav.title-page {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       padding-top: 20px;
       padding-bottom: 30px;
-      padding-left: 105px;
-      padding-right: 125px;
+      padding-left: 40px;
+      padding-right: 40px;
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
+    header .contacts-one {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}  
+
+@media (min-width: 1280px) {
+    header nav.title-page {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (min-width: 1280px) {
+    header .contacts-one {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+
+@media (min-width: 990px) {
    header .nav-menu{
       display: flex;  
       flex-direction: row;
       margin-bottom: 10px;
-      margin-right: 184px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
    header .logo-company-two {
     display: block;
     font-size: 20px;
     width: 172px;
-    margin-right: 124px;
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 990px) {
   header .menu {
     padding-top: 10px;
     padding-left: 35px;
