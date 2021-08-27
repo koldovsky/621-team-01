@@ -89,6 +89,14 @@ main .button {
   }
 }
 
+@media (max-width: 320px) {
+  main .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
 main .button-about-us {
   font-size: 16.5px;
   color: var(--button-color);

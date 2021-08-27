@@ -6,7 +6,7 @@ main .best-food {
   background-image: url(../img/best-food.webp);
   background-position: center;
   background-size: cover;
-  min-width: 100px;
+  min-width: 120px;
   min-height: 300px;
   font-size: 100%;
   display: block;
@@ -35,6 +35,7 @@ main h2.quality-food {
   font-size: 30px;
   text-align: left;
   position: absolute;
+  width: 200px;
   top: 26%;
   left: 6%;
   right: 50%;
@@ -46,13 +47,14 @@ main h2.quality-food {
     font-size: 52px;
     font-weight: 550;
     right: 35%;
+    width: auto;
   }
 }
 
 main .buttom-buy {
   font-size: 16.5px;
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 6%;
   color: var(--button-color);
   font-weight: bold;
@@ -104,6 +106,8 @@ main .banner-discount {
   position: absolute;
   top: 20%;
   left: 11%;
+  text-align: center ;
+
 }
 
 @media (min-width: 767px) {
@@ -119,8 +123,8 @@ main .discount-product {
 
 main .buttom-products {
   position: absolute;
-  top: 45%;
-  left: 38%;
+  top: 55%;
+  left: 25%;
   color: var(--button-color);
   font-weight: bold;
   text-decoration: none;
@@ -136,4 +140,12 @@ main .buttom-products:hover {
   border: 0.1em solid rgba(87, 214, 221, 0.582);
   background-color: rgba(87, 214, 221, 0.582);
   cursor: pointer;
+}
+
+@media (min-width: 767px) {
+  main .buttom-products {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+  }
 }
