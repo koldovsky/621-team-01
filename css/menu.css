@@ -45,7 +45,6 @@ header .logo-company {
     padding-top: 35px;
     font-size: 20px;
     width: 192px;
-    margin-left: -170px;
 }
 
 header .title-page {
@@ -79,7 +78,7 @@ header .contacts-one {
        background-color: rgb(242, 232, 228);
        display: flex;
        justify-content: space-around;
-       padding: 10px 170px 10px 170px;
+       padding: 15px 150px 15px 150px;
        height: auto;
     }
 }
@@ -146,9 +145,11 @@ header .menu {
    header nav.title-page {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
       padding-top: 20px;
       padding-bottom: 30px;
+      padding-left: 105px;
+      padding-right: 125px;
   }
 }
 
