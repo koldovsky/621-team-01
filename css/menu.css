@@ -152,8 +152,8 @@ header .menu {
 
 @media (min-width: 767px) {
    header nav.title-page {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 45px;
+      padding-right: 75px;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
