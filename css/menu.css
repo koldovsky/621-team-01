@@ -3,12 +3,6 @@ header{
     display: block;
 }
 
-@media (min-width: 767px) {
-    header{
-    display: flex;
-    }
-}
-
 .controlsMenuLine {
     position: absolute;
     right: 35px;
@@ -47,6 +41,11 @@ header{
 header .logo-company {
     position: relative;
     z-index: 1;
+    padding-left: 24px;
+    padding-top: 35px;
+    font-size: 20px;
+    width: 192px;
+    margin-left: -170px;
 }
 
 header .title-page {
@@ -118,13 +117,6 @@ header .mail{
      text-decoration: none;
      color: var(--button-color);
 }
- 
-header .logo-company {
-    padding-left: 24px;
-    padding-top: 35px;
-    font-size: 20px;
-    width: 182px;
-}
 
 @media (min-width: 767px) {
    header .logo-company {
@@ -152,11 +144,9 @@ header .menu {
 
 @media (min-width: 767px) {
    header nav.title-page {
-      padding-left: 45px;
-      padding-right: 75px;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       padding-top: 20px;
       padding-bottom: 30px;
   }
@@ -167,6 +157,7 @@ header .menu {
       display: flex;  
       flex-direction: row;
       margin-bottom: 10px;
+      margin-right: 184px;
     }
 }
 
@@ -174,8 +165,8 @@ header .menu {
    header .logo-company-two {
     display: block;
     font-size: 20px;
-    width: 182px;
-    padding-left: 24px;
+    width: 172px;
+    margin-right: 124px;
   }
 }
 
