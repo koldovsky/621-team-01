@@ -82,7 +82,7 @@
         }
 
         setInterval(nextSlide, 5000);
-        showCurrentSlide ();
+        showCurrentSlide();
 
       document.querySelector(".left-arrow")
       .addEventListener("click", previousSlide);
