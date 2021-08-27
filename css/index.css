@@ -3,6 +3,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -28,17 +33,16 @@ h1,h2,h3,h4 {
 
 main .banner {
   background-image: url(../img/banner-pictures.webp);
-  height: 600px;
-  width: auto;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 @media (min-width: 767px) {
   main .banner {
-  background-size: 100%;
-  background-size: cover;
-  height: 124vh;
-  position: relative;
-  width: auto;
+    background-size: 120%;
+    height: 124vh;
+    position: relative;
+    width: auto;
   }
 }
 
@@ -51,9 +55,9 @@ h1 {
 @media (min-width: 767px) {
   h1 {
     font-size: 82px;
-    padding-top: 180px;
+    padding-top: 170px;
     word-wrap: break-word;
-    width: 590px;
+    width: 620px;
     margin-left: 150px;
   }
 }
@@ -74,11 +78,19 @@ main .title-page {
   background-color: rgb(250, 244, 242);
 }
 
+main .button {
+   margin-top: 50px;
+   padding-left: 24px;
+}
+
+@media (min-width: 767px) {
+  main .button {
+    margin-left: 150px;
+  }
+}
+
 main .button-about-us {
   font-size: 16.5px;
-  position: absolute;
-  top: 70%;
-  left: 4%;
   color: var(--button-color);
   font-weight: bold;
   text-decoration: none;
@@ -96,19 +108,9 @@ main .button-about-us:hover {
   cursor: pointer;
 }
 
-@media (min-width: 767px) {
-  main .button-about-us {
-    margin-top: -155px;
-    margin-left: 130px;
-  }
-}
-
 main .button-categories {
   font-size: 17.5px;
   font-weight: bold;
-  position: absolute;
-  top: 70%;
-  left: 30%;
   color:rgba(52, 211, 219, 0.582);
   font-weight: bold;
   text-decoration: none;
@@ -123,13 +125,6 @@ main .button-categories:hover {
   border: 0.1em solid rgb(23, 145, 151);
   background-color: rgb(23, 145, 151);
   cursor: pointer;
-}
-
-@media (min-width: 767px) {
-  main .button-categories {
-    margin-top: -155px;
-    margin-left: -120px;
-  }
 }
 
 main #categories {

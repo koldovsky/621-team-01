@@ -1,6 +1,6 @@
 header{
-    display: block;
     background-color: rgb(250, 244, 242);
+    display: block;
 }
 
 @media (min-width: 767px) {

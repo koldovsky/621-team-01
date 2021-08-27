@@ -6,8 +6,9 @@ main .best-food {
   background-image: url(../img/best-food.webp);
   background-position: center;
   background-size: cover;
-  width: 510px;
-  height: 260px;
+  min-width: 100px;
+  min-height: 300px;
+  font-size: 100%;
   display: block;
   margin-top: 50px;
   position: relative;
@@ -74,8 +75,9 @@ main .discount {
   background-image: url(../img/discount.png);
   background-size: cover;
   background-position: center;
-  width: 510px;
-  height: 260px;
+  min-width: 100px;
+  min-height: 300px;
+  font-size: 100%;
   display: block;
   margin-top: 50px;
   position: relative;
