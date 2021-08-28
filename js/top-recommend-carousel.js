@@ -149,12 +149,7 @@ function updateTime() {
             "price": "7,00",
             "imgUrl": "img/sterco-rainbow-balls.png"
         },
-        {
-            "id": "19",
-            "name": "STERCO Rainbow Balls",
-            "price": "7,00",
-            "imgUrl": "img/sterco-rainbow-balls.png"
-        },
+    
         {
             "id": "20",
             "name": "AGA Green Cage",
@@ -171,7 +166,7 @@ function updateTime() {
             "id": "22",
             "name": "TISCO 50 Liter Aquarium",
             "price": "70,00",
-            "imgUrl": "mg/tisco-50-liter-aquarium.png"
+            "imgUrl": "img/tisco-50-liter-aquarium.png"
         },
         {
             "id": "23",
@@ -201,7 +196,7 @@ function updateTime() {
             </div>`;
     }
 
-    document.querySelector('.carousel-prod').innerHTML = productsHtml;
+    document.querySelector('.carousel-top-prods').innerHTML = productsHtml;
 
 })();
 
