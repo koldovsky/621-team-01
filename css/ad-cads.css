@@ -149,3 +149,7 @@ main .buttom-products:hover {
   background-color: rgba(87, 214, 221, 0.582);
   cursor: pointer;
 }
+
+.ad-cards .trade-carousel {
+  display: flex;
+}
