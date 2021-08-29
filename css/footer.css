@@ -25,7 +25,7 @@
   
   footer h2 {
     text-align: center;
-    margin: 45px;
+    margin: 30px;
   }
   
   footer ul li a {
@@ -44,11 +44,11 @@
     margin-top: 20px;
   }
 
-  .customer-service {
+  .customer-service div {
     margin-top: 20px;
   }
 
-  .help-information {
+  .help-information div {
     margin-top: 20px;
   }
 
@@ -61,7 +61,7 @@
 
   .map-line .map iframe {
     min-width: 320px;
-    margin-top: 35px;
+    margin-top: 0px;
   }
   
   .paw-logo img {
@@ -88,18 +88,6 @@
     .map-line .map iframe {
       min-width: 700px;
       margin-bottom: 30px;
-    }
-
-    .navigation div {
-      margin-top: 0px;
-    }
-  
-    .customer-service {
-      margin-top: 0px;
-    }
-  
-    .help-information {
-      margin-top: 0px;
     }
   }
 
