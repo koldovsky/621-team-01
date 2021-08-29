@@ -1,9 +1,20 @@
-.top-recommend {
+/* for general container */
+/* .top-recommend {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
     margin: auto;
     padding: 60px;
+}
+
+
+.top-recommend img.small-bone {
+    display:block;
+    margin: auto;
+    width: 70px;
+    height: 32px;
+    padding: 25px;
+
 }
 
 .top-recommend h2 {
@@ -17,24 +28,14 @@
 
 }
 
-.top-recommend img {
-    width: 272px;
-    height: 272px;
-    margin: 15px, 0px;
-    
-}
-
-.top-recommend img.small-bone {
-    display:block;
-    margin: auto;
-    width: 70px;
-    height: 32px;
-    padding: 25px;
-
-}
-
 .top-recommend .top-recommend-text {
     text-align:center;
+}
+
+.top-recommend img {
+    width: 100%;
+    margin: 15px, 0px;
+    
 }
 
 .top-categories {
@@ -62,12 +63,10 @@
     margin: 15px;
 }
 
-
-#top-for {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-       
+.carousel-top-prods {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    
 }
 
 .top-goods {
@@ -76,6 +75,7 @@
     padding: 0px, 15px;
     flex-direction: column;
     max-width: 272px;
+    justify-content: flex-start;
 }
 
 .top-goods .top-good-name {
@@ -109,6 +109,142 @@
     background-color: rgba(255, 175, 83, 0.582);
     color: var(--button-color);
     
+} */
+
+.top-recommend {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.top-recommend .top-recommend-descript {
+    margin: 0 5px;
+    text-align: center;
+}
+
+.top-recommend h2 {
+    font-size: 1.5rem;
+
+}
+
+.top-recommend .top-categories {
+    padding-top: 15px;
+    display: flex;
+    margin: 0 5px;
+    flex-direction: column; 
+}
+
+.top-recommend .top-categories a {
+    color: var(--original-text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition-duration:0.5s;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.top-recommend .top-categories a:hover {
+    color:black;
+    border-bottom-color: #802020;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+}
+
+@media (min-width: 600px) {
+
+    .top-recommend h2 {
+        font-size: 3rem;
+    
+    }
+
+    .top-recommend .top-categories {
+        flex-direction: row;
+        font-size: 3rem;
+        justify-content: center;
+        
+    }
+}
+
+.top-recommend .carousel-top-container {
+    margin: 30px auto;
+    padding: 0px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .top-goods {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px 0px;
+    padding: 0px 15px;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .top-goods .preview {
+    width: 100%;
+    height: 100%;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .top-goods .top-good-name {
+    font-size: 1.1rem;
+    color: #232323;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .top-goods p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .top-goods .button {
+    padding: 0.7em 1.2em;
+    margin-top: 15px;
+    border-radius: 2em;
+    width: 150px;
+    color: #45c1c7;
+    background-color: #b2e7e9; 
+    text-align: center;
+    transition-duration:0.3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-recommend .carousel-top-container .carousel-top-prods .button:hover {
+    background-color: rgba(255, 175, 83, 0.582);
+    color: var(--button-color);
+    
+}
+
+@media (min-width: 750px) {
+
+    .top-recommend .top-categories {
+        border-bottom-color: #232323;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+    
+    .top-recommend .carousel-top-container .carousel-top-prods {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 990px) {
+    .top-recommend .carousel-top-container .carousel-top-prods {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 

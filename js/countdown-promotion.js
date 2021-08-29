@@ -1,17 +1,25 @@
-const countdownDate = new Date("May 25, 2022 14:25:33").getTime();
-const x = setInterval(function() {
+const countdown = () => {
+    const countDate = new Date('April 24, 2022 00:00:00').getTime();
     const now = new Date().getTime();
-    const distance = countdownDate - now;
+    const gap = countDate - now;
 
-    const days = Math.floor(distance/(1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    const seconds = 1000; 
+    const minutes = seconds * 60; 
+    const hours = minutes * 60; 
+    const day = hours * 24;
 
-    document.getElementById('countdown').innerHTML = days + "days " + hours + "hours " + minutes + "minutes " + seconds + "seconds ";
+    const textDay = Math.floor(gap / day);
+    const textHours = Math.floor((gap % day) / hours);
+    const textMinutes = Math.floor((gap % hours) / minutes);
+    const textSeconds = Math.floor((gap % minutes) / seconds);
 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById('countdown').innerHTML = "EXPIRED";
-    }
-}, 1000);
+    document.querySelector(".day").innerText = textDay;
+    document.querySelector(".hours").innerText = textHours;
+    document.querySelector(".minutes").innerText = textMinutes;
+    document.querySelector(".seconds").innerText = textSeconds;
+
+
+}
+
+setInterval(countdown, 1000);
+

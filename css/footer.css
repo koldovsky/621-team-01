@@ -9,6 +9,12 @@
     padding: 10px 10px 10px 10px;
   }
   
+  #clock{
+    color: var(--buy-color);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
   .number {
     color: var(--button-color);
     font-family: var(--title-font-family);
@@ -19,7 +25,7 @@
   
   footer h2 {
     text-align: center;
-    margin: 45px;
+    margin: 30px;
   }
   
   footer ul li a {
@@ -32,7 +38,18 @@
       align-items: center;
       justify-content: space-around;
       padding: 10px 10px 10px 10px;
-  
+  }
+
+  .navigation div {
+    margin-top: 20px;
+  }
+
+  .customer-service div {
+    margin-top: 20px;
+  }
+
+  .help-information div {
+    margin-top: 20px;
   }
 
   .map-line {
@@ -42,9 +59,9 @@
     justify-content: space-around;
   }
 
-  .map {
+  .map-line .map iframe {
     min-width: 320px;
-    margin-top: 35px;
+    margin-top: 0px;
   }
   
   .paw-logo img {
@@ -65,10 +82,15 @@
   @media (min-width: 767px) {
     .map-line {
       display: flex;
-      flex-direction:row;
+      flex-direction: row;
+    }
+
+    .map-line .map iframe {
+      min-width: 700px;
+      margin-bottom: 30px;
     }
   }
-  
+
   .footer-nav h4 {
     font-size: 1.5rem;
     text-align: left;
@@ -155,20 +177,27 @@
   }
   .or-line {
     background-color: var(--button-color);
-    align-items: center;
-    height: 3px;
-    margin: 10px 0px 10px 0px;
+    height: 2px;
+    margin: 10px 90px 10px 90px;
+  }
+
+  .small-social-icons:hover {
+    color: var(--buy-color);
   }
 
   .contacts-bottom {
     color: var(--button-color);
+    font-size: 0.8rem;
     font-weight:bold;
     background-color: rgb(242, 232, 228);
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0px 20px 0px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+  }
+  .contacts-bottom span {
+    padding-top: 5px;
   }
 
   .footer-menu p {
@@ -194,7 +223,13 @@
   .footer-nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
+
+  .footer-subscribe {
+    padding: 0px 0px 0px 0px;
+  }
+
   .email-block {
     padding: 0px 20px 0px 20px;
     margin-top: 0;
@@ -202,12 +237,14 @@
   .for-paddings {
     padding: 0px 20px 0px 20px;
   }
+
   .footer-menu {
     display: flex;
     flex-direction: row;
     text-align: left;
     justify-content: space-around;
   }
+
   .logo-footer p {
     text-align: left;
     padding-right: 20px;
@@ -219,5 +256,11 @@
   }
   .short-info {
     max-width: 400px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .footer-subscribe {
+  padding: 0px 0px 0px 40px;
   }
 }
