@@ -97,7 +97,7 @@
                 <div class="carousel-product">
                     <button class="left-arrow"><img src="img/left-arrow.svg" alt="left"></button>
                     <div class="slider-container">
-                        <div class="slide"> </div>
+                        <div class="slide"></div>
                     </div>
                     <button class="right-arrow"><img src="img/right-arrow.svg" alt="right"></button>
                 </div>
@@ -773,12 +773,51 @@
             <span>All rights Reserved</span>
         </div>
     </footer>
+
+
+<!-- Modal Product Info -->
+<div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <div id="carouselProductInfo" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="..." class="d-block w-100 image-one" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100 image-two" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductInfo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProductInfo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h4 class="card-title"></h4>
+            <p class="card-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <script src="js/index.js"></script>
     <script src="js/top-recommend-carousel.js"></script>
     <script src="js/carousel-product.js"></script>
     <script src="js/countdown-promotion.js"></script>
     <script src="js/trade-marks-carousel.js"></script>
     <script src="js/menu.js"></script>
+
 </body>
 
 </html>
