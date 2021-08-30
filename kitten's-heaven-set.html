@@ -9,35 +9,41 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/store-goods.css">
 </head>
 <body>
     <header>
-        <div class="navigation">
+        <div class="navigation-one">
             <div class="contacts-one">
-                <p class="time-work"> Working Hours: 08 AM - 08 PM</p>
-                <p>Email: <a class="mail" href="mailto:happypaw@email.com"> happypaw@email.com</a> </p>
-                <p>Phone: <a class="mail" href="tel:+12345678900"> +1 (234)567 89 00</a> </p>
+                <div class="times">
+                   <p class="time-work"> Working Hours: 08 AM - 08 PM</p>
+                   <div id="clock-header"></div>
+               </div>
+                <div class="mail-contacts">
+                    <p>Email: <a class="mail" href="mailto:happypaw@email.com"> happypaw@email.com</a> </p>
+                    <p>Phone: <a class="mail" href="tel:+12345678900"> +1 (234)567 89 00</a> </p>
+                </div>
             </div>
-               <img class="logo-company" src="img/logo-company.svg" width=100 alt="Pet Store Logo"> 
+            <img class="logo-company" src="img/logo-company.svg" width=100 alt="Pet Store Logo">
             <div class="controlsMenuLine">
-               <div class="open-menu open-mobile-menu-js">
-                   <span class="burger-line"></span>
-                   <span class="burger-line"></span>
-                   <span class="burger-line"></span>
+                <div class="open-menu open-mobile-menu-js">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
                 </div>
-            <div class="close-menu close-mobile-menu-js">
-                   <span class="burger-line"></span>
-                   <span class="burger-line"></span>
+                <div class="close-menu close-mobile-menu-js">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
                 </div>
             </div>
-           <nav class="title-page">
-            <img class="logo-company-two" src="img/logo-company.svg" width=100 alt="Pet Store Logo"> 
+            <nav class="title-page">
+                <img class="logo-company-two" src="img/logo-company.svg" width=100 alt="Pet Store Logo">
                 <div class="nav-menu">
-                  <a class="menu" href="#about">About Us</a>
-                  <a class="menu" href="#categories">Categories</a>
-                  <a class="menu" href="#bestseller">Best Sellers</a>
-                  <a class="menu" href="#arrivals">New Arrivals</a>
-                  <a class="menu" href="#products">Our Shop</a>
+                    <a class="menu" href="#about">About Us</a>
+                    <a class="menu" href="#categories">Categories</a>
+                    <a class="menu" href="#bestseller">Best Sellers</a>
+                    <a class="menu" href="#arrivals">New Arrivals</a>
+                    <a class="menu" href="#products">Our Shop</a>
                 </div>
                 <div class="contacts">
                     <p> Working Hours: 08 AM - 08 PM</p>
@@ -95,29 +101,30 @@
                     </a>
                 </div>
             </nav>
-        </div>    
+        </div>
     </header>
   <main>
-
+      <div class="store-goods">
+          <img src="img/kitten's-heaven-set.png" alt="Cat products heaven set">
+          <div class="description-products">
+              <p class="paragraf-stock">In stock</p>
+              <h3 class="banner-good-store">Kitten's Heaven Set</h3>
+              <p class="paragraf-code">Product code 45</p>
+              <p class="price-store-goods">$12,00</p>
+              <div class="quantity-goods-buy">
+                    <div class="input-group quantity_goods">
+                        <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                        <input type="button" value="-" id="button_minus">
+                        <input type="button" value="+" id="button_plus">
+                    </div>
+                    <a class="buttom-add-to-cart" href="#add-to-card">Add to cart</a>
+                </div>
+              <p>DESCRIPTION</p>
+              <p>Have you adopted a kitten? Congratulations! It will love this set of toys for sure. Here is everything to entertain your pet — bright woolen mice, sticks with ropes, and clinking balls.</p>
+          </div>
+      </div>
   </main>
   <footer>
-    <div class="footer-nav">
-        <div class="footer-subscribe">
-            <h4>Call us</h4>
-            <span class="number">+1 (234) 567 89 00</span>
-        </div>
-        <div class="for-paddings">
-            <p>Subscribe to our newsletter and be aware of all of our new products, discounts, and hot promotions.
-            </p>
-            <a class="sale-week" href="#"><span>Sale week</span><span class="arrow">→</span></a>
-        </div>
-        <div>
-            <form class="email-block">
-                <input type="text" placeholder="Email">
-                <button class="button-subscribe" type="submit">Subscribe</button>
-            </form>
-        </div>
-    </div>
     <div class="footer-menu">
         <div class="short-info">
             <div class="logo-footer">
@@ -223,5 +230,6 @@
         <span>All rights Reserved</span>
     </div>
 </footer>
+<script src="js/quantity_goods.js"></script>
 </body>
 </html>
