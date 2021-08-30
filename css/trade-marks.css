@@ -1,0 +1,31 @@
+.carousel-trade-mark {
+    min-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1%;
+    left: 20%;
+    transform: translate(3%,-25%);
+}
+.carousel-trade-mark .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(255, 235, 212);
+}
+.carousel-trade-mark .slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+.carousel-trade-mark button {
+    background-color: transparent;
+    width: 50px;
+    border: none;
+}

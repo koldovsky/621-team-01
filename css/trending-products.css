@@ -1,0 +1,77 @@
+.trending-products {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    display: inline;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+main div.trending-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-family: var(--title-font-family);
+    color: var(--title-color);
+  }
+  main div.our-new-arrivals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-family: var(--title-font-family);
+    color: var(--title-color);
+  }
+  main div.trending-products > p {
+    font-family: var(--original-font-family);
+    color: var(--original-text-color);
+  }
+  main div.our-new-arrivals > p {
+    font-family: var(--original-font-family);
+    color: var(--original-text-color);
+  }
+  main div.carousel-trending-products-section-content article a {
+    font-family: var(--original-font-family);
+    color: rgb(60, 55, 49);
+    text-decoration: none;
+    font-weight: 400;
+  }
+  main div.carousel-new-arrivals-section-content article a {
+    font-family: var(--original-font-family);
+    color: rgb(60, 55, 49);
+    text-decoration: none;
+  }
+  main div article a.name:hover {
+    font-family: var(--original-font-family);
+    color: rgb(235, 141, 26);
+    text-decoration: none;
+  }
+  main div article p.price {
+    color: var(--original-text-color);
+  }
+.our-new-arrivals {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    display: inline;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+.carousel-trending-products-section-content {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  }
+  .carousel-new-arrivals-section-content {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /*div.carousel-new-arrivals-section-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+  }*/
