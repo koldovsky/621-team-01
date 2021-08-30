@@ -368,7 +368,7 @@ main div.ad-cardss > div.ad-card-aquariums h2 {
 main div.ad-cardss > div.ad-card-aquariums a {
   position: relative;
   top: 25%;
-  left: 4%;
+  right:10%;
   font-size: 17px;
   font-weight: 700;
 }
@@ -401,10 +401,23 @@ main div.ad-cardss > div.toys a.button {
   right: 30%
 }
 
-div.carousel-new-arrivals-section-content {
+.carousel-trending-products-section-content {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.carousel-new-arrivals-section-content {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*div.carousel-new-arrivals-section-content {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
   margin: auto;
   padding: 60px;
-}
+}*/
+
+
