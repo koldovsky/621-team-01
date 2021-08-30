@@ -221,3 +221,10 @@ header .menu:hover {
 .socials-icon-p:hover {
     fill:  rgb(23, 145, 151);
 }
+
+  
+#clockTimer {
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}

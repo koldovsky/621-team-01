@@ -16,4 +16,3 @@ function hideMobileMenu(){
     closeMobileMenuButton.style.display = 'none';
     mobileMenu.style.display = 'none';
 }
-
