@@ -1,14 +1,15 @@
 .container-feed-catalog {
     background-color: rgb(250,245,242);
     
+    
 }
 
 
-#animal-feed-catalog {
+.container-feed-catalog #animal-feed-catalog {
     padding: 0px 24px;
     flex-direction: column;
-    margin: auto;
-    max-width: 1200;
+    max-width: 1200px;
+    margin: 60px auto;
     
 }
 
