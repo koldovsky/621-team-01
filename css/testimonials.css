@@ -111,10 +111,35 @@
     margin: 15px 5px;
 }
 
-.container-testemonials .reviews .carousel-reviews .review .img img {
+.container-testemonials .reviews .carousel-reviews .review .img {
+    padding: 15px;
+}
+
+.container-testemonials .reviews .carousel-reviews .review img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    
 }
+.container-testemonials .reviews .carousel-reviews .review p {
+    padding: 15px;
+    text-align: center;
+}
+
+.container-testemonials .reviews .carousel-reviews .review .review-text {
+    padding: 15px;
+    font-style: italic;  
+}
+
+.container-testemonials .reviews .carousel-reviews .review span {
+    padding: 15px;
+    color: rgb(252, 105, 105);
+}
+
+.container-testemonials .reviews .carousel-reviews .review .next-button,
+.container-testemonials .reviews .carousel-reviews .review .prev-button {
+    background-color: black;
+}
+
 
 
