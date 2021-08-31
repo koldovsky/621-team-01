@@ -1,0 +1,27 @@
+
+.slider-logotypes {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider-logotypes .logo-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    background-color: rgb(255, 235, 212);
+}
+.slider-logotypes .logo-block img {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+.slider-logotypes button {
+    background-color: transparent;
+    width: 50px;
+    border: none;
+}
