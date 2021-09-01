@@ -1,27 +1,42 @@
-
 .slider-logotypes {
-    box-sizing: border-box;
+    min-width: 900px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1%;
+    left: 20%;
+    transform: translate(3%,-25%);
 }
 
 .slider-logotypes .logo-block {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 80px;
-    background-color: rgb(255, 235, 212);
+    position: relative;
+    right: 30%;
+    width: 250px;
+    height: 150px;
 }
 .slider-logotypes .logo-block img {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
     margin: auto;
 }
 .slider-logotypes button {
     background-color: transparent;
     width: 50px;
     border: none;
+}
+.btn-prev-footer {
+    position: relative;
+    top: 1%;
+    right: 67%;
+}
+.btn-next-footer {
+    position: relative;
+    top: 1%;
+    right: 20%;
 }
