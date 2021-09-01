@@ -137,6 +137,11 @@
     color: rgb(252, 105, 105);
 }
 
+@media (min-width: 770px) {
+    .container-testemonials .reviews .testimonials-title h2 {
+        font-size: 3rem;
+    }
+}
 
 @media (min-width: 900px) {
     .container-testemonials .reviews .carousel-reviews {
