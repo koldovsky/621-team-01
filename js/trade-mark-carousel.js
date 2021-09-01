@@ -11,11 +11,11 @@
     let currentSlideIdx = 0;
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.carousel-trade-mark .slide');
-        slideContainer.innerHTML = slides[currentSlideIdx];
+        slideContainer.innerHTML = slides[currentSlideIdx] + slides[currentSlideIdx+1] + slides[currentSlideIdx+2] + slides[currentSlideIdx+3];
     }
     function nextSlide() {
         currentSlideIdx++;
-        if(currentSlideIdx >= slides.length) currentSlideIdx = 0;
+        if(currentSlideIdx >= slides.length - 3) currentSlideIdx = 0;
         showCurrentSlide();
     }
     function prevSlide() {

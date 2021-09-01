@@ -15,17 +15,28 @@
     position: relative;
     width: 250px;
     height: 150px;
-    background-color: rgb(255, 235, 212);
+    /*background-color: rgb(255, 235, 212);*/
 }
 .carousel-trade-mark .slide img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 150px;
     margin: auto;
 }
 .carousel-trade-mark button {
     background-color: transparent;
     width: 50px;
     border: none;
+}
+
+.btn-prev {
+    position: relative;
+    top: 1%;
+    right: 70%;
+}
+.btn-next {
+    position: relative;
+    top: 1%;
+    left: 32%;
 }
