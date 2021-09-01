@@ -6,7 +6,7 @@
 
 
 .container-feed-catalog #animal-feed-catalog {
-    padding: 0px 24px;
+    padding: 30px 24px;
     flex-direction: column;
     max-width: 1200px;
     margin: 60px auto;
@@ -15,11 +15,12 @@
 
 #animal-feed-catalog h2 {
     text-align:center;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
-#animal-feed-catalog > p {
+#animal-feed-catalog #buy > p  {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #animal-feed-catalog .small-bone {
@@ -30,7 +31,7 @@
     padding: 25px;
 }
 
-#animal-feed-catalog div img {
+#animal-feed-catalog #buy .feed-proposal div img {
     border-radius: 50%;
     width: 70px;
     height: 70px;
